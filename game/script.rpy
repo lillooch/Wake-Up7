@@ -9,17 +9,17 @@ image bg bed = "Hospital Bed.WEBP"
 image bg sink = "Sink.jpg"
 image bg shower = "Shower.jpg"
 image calendar = "Card and letter.jpeg"
-image bg fridge = ""
+image bg fridge = "kitchen.jpg"
 
 
 label start:
-    show bg bed
+show bg bed
 "You are lying in your bed, groggy since you have just awoken from a long coma."
 "You look over to your left to see a calendar on your bedside table, next to a postcard from your boyfriend from the past."
-    show calendar
+show calendar
 "You read the postcard, which says 'We LOVE you, and missed you so much. Welcome back from your 2 year coma!'"
 "You look at the calendar, and see that it is the 29th of August, 2028. You also notice that today is labelled as 'The Perfect Day' on your calendar."
-    show bg bed
+show bg bed
 "Panic settles in as you realise that you have no memory of the last 2 years, however you seem to feel familiar in this room and bed, so you decide to explore ."
 
     # ADD CHOICE FOR KITCHEN OR BATHROOM
@@ -33,6 +33,7 @@ show bg fridge
     # IF KITCHEN
 show kitchen
 scene kitchen
+show kitchen
 "You are now in the kitchen, this is where you and your boyfriend used to cook together, you see a note on the fridge that says 'I love you, and I will always be here for you, even if you don't remember me. -Your boyfriend'"
 "Memories come flooding back to you, and you recollect your love, feeling a tug at your heart."
 "However, your stomach cuts you off before you can think any more, growling greedily"

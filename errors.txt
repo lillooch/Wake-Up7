@@ -2,9 +2,21 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 40: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    return
+File "game/script.rpy", line 19: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    show calendar
+    ^
+
+File "game/script.rpy", line 22: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    show bg bed
+    ^
+
+File "game/script.rpy", line 29: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    show bg sink
+    ^
+
+File "game/script.rpy", line 36: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    show kitchen
     ^
 
 Ren'Py Version: Ren'Py 8.5.3.26051504
-Sat Aug 29 17:00:50 2026
+Sat Aug 29 17:19:20 2026
