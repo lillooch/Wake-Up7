@@ -21,10 +21,12 @@ show bg bed
 "You are lying in your bed, groggy since you have just awoken from a long coma."
 "You look over to your left to see a calendar on your bedside table, next to a postcard from your boyfriend from the past."
 scene calendar
+
 show calendar
 "You read the postcard, which says 'We LOVE you, and missed you so much. Welcome back from your 2 year coma!'"
 "You look at the calendar, and see that it is the 29th of August, 2028. You also notice that today is labelled as 'The Perfect Day' on your calendar."
-scene hospital 
+
+scene hospital
 show bg bed
 "Panic settles in as you realise that you have no memory of the last 2 years, however you seem to feel familiar in this room and bed, so you decide to explore ."
 
@@ -38,17 +40,21 @@ show bg sink
 scene fridge
 show bg fridge
 
+    # IF KITCHEN
+show kitchen
+scene kitchen
+show kitchen
 "You are now in the kitchen, this is where you and your boyfriend used to cook together, you see a note on the fridge that says 'I love you, and I will always be here for you, even if you don't remember me. -Your boyfriend'"
 "Memories come flooding back to you, and you recollect your love, feeling a tug at your heart."
 "However, your stomach cuts you off before you can think any more, growling greedily"
 "You look in the fridge and spot some leftover foods and takeaway"
 "Would you like to make a sandwich using the leftover foods or eat the takeaway?"
 
-"Would you rather explore the bathroom or the kitchen first?"
+#Would you rather explore the bathroom or the kitchen first?
 # If the player chooses the bathroom, the game will continue with the following code:
 scene bathroom
 "You are now in the bathroom, you smell the scent of your favourite shampoo and you see your toothbrush"
-"Would you like to brush your teeth or take a shower?"
+#Would you like to brush your teeth or take a shower?
 #If the player chooses to brush their teeth, the game will continue with the following code:
 "Your brush your teeth and the toothpaste tastes disgusting and rotten, you spit it out and rinse, only to find that the water is brown and dirty. "
 e " Ew, this is fucking disgusting, what a good way to start my perfect day"
@@ -62,7 +68,7 @@ e " OW, what the hell my eye hurts, what a good way to start my perfect day"
 
 return
 
-#If the player chooses to make a sandwich, the game will continue with the following code:
+# If the player chooses to make a sandwich, the game will continue with the following code:
 "You make a sandwich with the leftover foods, starting by toasting the bread, which you realise to be mouldy."
 "Once the bread is toasted, you try to take it out of the toaster, but it is stuck, so you use a knife ."
 e "Holy shit"
@@ -74,5 +80,20 @@ e "What a good way to start my perfect day"
 "You take a bite of the dumpling, only to realise that the inside is completely mouldy and rotten"
 e "Yeuck this is awful, what a good way to start my perfect day"
 
-return
+scene bed
+show normal bed
+"You fall back into reality, realising everything has been a dream, thank goodness."
+"You decide to get out of bed and experience the day, forgetting all about that perfect day nonsense."
+ 
+scene garden 
+show garden 
+"You go outside to the garden, and see your boyfriend waiting for you, smiling and waving at you."
+e "Hello David! You wouldn't believe the funny dream I just had!"
+d "Hello darling, you can tell me all about it later, at a special somwehere."
+d "I love you so much, and always will. Will you marry me and make me the happiest man alive?" 
+e "NO, I would much rather marry your brother."
+e "Just kidding, of course I will marry you, I love you so much David. I am the happiest woman alive."
+e "Turns out, the perfect day was real after all!"
 
+
+return

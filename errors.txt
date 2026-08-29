@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 56: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+File "game/script.rpy", line 62: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
     "You take a shower and feel your greasy hair, so you decide to wash it with shampoo. However you get soap in your right eye, after noticing that the water is brown and dirty ."
     ^
 
+File "game/script.rpy", line 72: Line is indented, but the preceding return statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    "You make a sandwich with the leftover foods, starting by toasting the bread, which you realise to be mouldy."
+    ^
+
 Ren'Py Version: Ren'Py 8.5.3.26051504
-Sat Aug 29 17:51:23 2026
+Sat Aug 29 18:11:37 2026
