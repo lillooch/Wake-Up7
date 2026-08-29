@@ -13,6 +13,7 @@ image calendar = "Card and letter.jpeg"
 image bg fridge = "kitchen.jpg"
 image normal bed = "normal bed.jpg"
 image garden = "garden.jpg.webp"
+image toaster = "toaster.jpg.webp"
 
 
 label start:
@@ -53,18 +54,23 @@ show kitchen
 #Would you rather explore the bathroom or the kitchen first?
 # If the player chooses the bathroom, the game will continue with the following code:
 scene bathroom
+show bg sink
 "You are now in the bathroom, you smell the scent of your favourite shampoo and you see your toothbrush"
 #Would you like to brush your teeth or take a shower?
 #If the player chooses to brush their teeth, the game will continue with the following code:
 "Your brush your teeth and the toothpaste tastes disgusting and rotten, you spit it out and rinse, only to find that the water is brown and dirty. "
 e " Ew, this is fucking disgusting, what a good way to start my perfect day"
 #If the player chooses to take a shower, the game will continue with the following code:
+scene shower
+show bg shower
 "You take a shower and feel your greasy hair, so you decide to wash it with shampoo. However you get soap in your right eye, after noticing that the water is brown and dirty ."
 e " OW, what the hell my eye hurts, what a good way to start my perfect day"
 
 
 
 # If the player chooses to make a sandwich, the game will continue with the following code:
+scene toaste
+show toaster
 "You make a sandwich with the leftover foods, starting by toasting the bread, which you realise to be mouldy."
 "Once the bread is toasted, you try to take it out of the toaster, but it is stuck, so you use a knife ."
 e "Holy shit"
@@ -72,6 +78,8 @@ e "Holy shit"
 e "What a good way to start my perfect day"
     
 # If the player chooses to eat the takeaway, the game will continue with the following code:
+scene takeaway
+show bg fridge
 "You open the takeaway box, excited to eat, however it looks almost empty, until you spot a couple sad looking dumplings ."
 "You take a bite of the dumpling, only to realise that the inside is completely mouldy and rotten"
 e "Yeuck this is awful, what a good way to start my perfect day"
