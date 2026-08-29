@@ -64,10 +64,6 @@ e " OW, what the hell my eye hurts, what a good way to start my perfect day"
 
 
 
-    # WAKE UP
-
-return
-
 # If the player chooses to make a sandwich, the game will continue with the following code:
 "You make a sandwich with the leftover foods, starting by toasting the bread, which you realise to be mouldy."
 "Once the bread is toasted, you try to take it out of the toaster, but it is stuck, so you use a knife ."
