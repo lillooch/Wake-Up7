@@ -4,6 +4,7 @@
 # name of the character.
 
 define e = Character("You")
+define d = Character("David")
 
 image bg bed = "Hospital Bed.WEBP"
 image bg sink = "Sink.jpg"
@@ -11,6 +12,7 @@ image bg shower = "Shower.jpg"
 image calendar = "Card and letter.jpeg"
 image bg fridge = "kitchen.jpg"
 image normal bed = "normal bed.jpg"
+image garden = "garden.jpg.webp"
 
 
 label start:
