@@ -22,7 +22,7 @@ label start:
     show bg bed
 "Panic settles in as you realise that you have no memory of the last 2 years, however you seem to feel familiar in this room and bed, so you decide to explore ."
 
-<<<<<<< Updated upstream
+
     # ADD CHOICE FOR KITCHEN OR BATHROOM
 
     # IF BATHROOM
@@ -39,7 +39,7 @@ scene kitchen
 "However, your stomach cuts you off before you can think any more, growling greedily"
 "You look in the fridge and spot some leftover foods and takeaway"
 "Would you like to make a sandwich using the leftover foods or eat the takeaway?"
-=======
+
 Would you rather explore the bathroom or the kitchen first?
 # If the player chooses the bathroom, the game will continue with the following code:
     scene bathroom
@@ -52,13 +52,12 @@ If the player chooses to take a shower, the game will continue with the followin
     "You take a shower and feel your greasy hair, so you decide to wash it with shampoo. However you get soap in your right eye, after noticing that the water is brown and dirty ."
 e " OW, what the hell my eye hurts, what a good way to start my perfect day
 
->>>>>>> Stashed changes
+
 
     # WAKE UP
 
-<<<<<<< Updated upstream
 return
-=======
+
 # If the player chooses to make a sandwich, the game will continue with the following code:
     "You make a sandwich with the leftover foods, starting by toasting the bread, which you realise to be mouldy."
     "Once the bread is toasted, you try to take it out of the toaster, but it is stuck, so you use a knife ."
@@ -72,4 +71,4 @@ return
     e "Yeuck this is awful, what a good way to start my perfect day"
 
     return
->>>>>>> Stashed changes
+
