@@ -3,8 +3,8 @@ errors listed below, and try again.
 
 
 File "game/script.rpy", line 40: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    e "You've created a new Ren'Py game."
+    return
     ^
 
 Ren'Py Version: Ren'Py 8.5.3.26051504
-Sat Aug 29 16:29:09 2026
+Sat Aug 29 17:00:50 2026
