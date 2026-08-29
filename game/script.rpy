@@ -44,17 +44,17 @@ show bg fridge
 "You look in the fridge and spot some leftover foods and takeaway"
 "Would you like to make a sandwich using the leftover foods or eat the takeaway?"
 
-Would you rather explore the bathroom or the kitchen first?
+"Would you rather explore the bathroom or the kitchen first?"
 # If the player chooses the bathroom, the game will continue with the following code:
-    scene bathroom
+scene bathroom
 "You are now in the bathroom, you smell the scent of your favourite shampoo and you see your toothbrush"
-Would you like to brush your teeth or take a shower?
-If the player chooses to brush their teeth, the game will continue with the following code:
+"Would you like to brush your teeth or take a shower?"
+#If the player chooses to brush their teeth, the game will continue with the following code:
 "Your brush your teeth and the toothpaste tastes disgusting and rotten, you spit it out and rinse, only to find that the water is brown and dirty. "
 e " Ew, this is fucking disgusting, what a good way to start my perfect day"
-If the player chooses to take a shower, the game will continue with the following code:
-    "You take a shower and feel your greasy hair, so you decide to wash it with shampoo. However you get soap in your right eye, after noticing that the water is brown and dirty ."
-e "OW, what the hell my eye hurts, what a good way to start my perfect day"
+#If the player chooses to take a shower, the game will continue with the following code:
+"You take a shower and feel your greasy hair, so you decide to wash it with shampoo. However you get soap in your right eye, after noticing that the water is brown and dirty ."
+e " OW, what the hell my eye hurts, what a good way to start my perfect day"
 
 
 
@@ -62,17 +62,17 @@ e "OW, what the hell my eye hurts, what a good way to start my perfect day"
 
 return
 
-# If the player chooses to make a sandwich, the game will continue with the following code:
-    "You make a sandwich with the leftover foods, starting by toasting the bread, which you realise to be mouldy."
-    "Once the bread is toasted, you try to take it out of the toaster, but it is stuck, so you use a knife ."
-    e "Holy shit"
-    "The fork burns and gives your hand a slight electric shock, burning your toaster and causing a loud BANG, you scurry out of the kitchen in fear, with an empty stomach"
-    e "What a good way to start my perfect day"
+#If the player chooses to make a sandwich, the game will continue with the following code:
+"You make a sandwich with the leftover foods, starting by toasting the bread, which you realise to be mouldy."
+"Once the bread is toasted, you try to take it out of the toaster, but it is stuck, so you use a knife ."
+e "Holy shit"
+"The fork burns and gives your hand a slight electric shock, burning your toaster and causing a loud BANG, you scurry out of the kitchen in fear, with an empty stomach"
+e "What a good way to start my perfect day"
     
 # If the player chooses to eat the takeaway, the game will continue with the following code:
-    "You open the takeaway box, excited to eat, however it looks almost empty, until you spot a couple sad looking dumplings ."
-    "You take a bite of the dumpling, only to realise that the inside is completely mouldy and rotten"
-    e "Yeuck this is awful, what a good way to start my perfect day"
+"You open the takeaway box, excited to eat, however it looks almost empty, until you spot a couple sad looking dumplings ."
+"You take a bite of the dumpling, only to realise that the inside is completely mouldy and rotten"
+e "Yeuck this is awful, what a good way to start my perfect day"
 
-    return
+return
 
