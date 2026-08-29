@@ -1,0 +1,38 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 19: expected statement.
+    Would you rather explore the bathroom or the kitchen first?
+                                                              ^
+
+File "game/script.rpy", line 20: expected statement.
+    If the player chooses the bathroom, the game will continue with the following code:
+                                      ^
+
+File "game/script.rpy", line 23: expected statement.
+    Would you like to brush your teeth or take a shower?
+                                                       ^
+
+File "game/script.rpy", line 24: expected statement.
+    If the player chooses to brush their teeth, the game will continue with the following code:
+                                              ^
+
+File "game/script.rpy", line 27: expected statement.
+    If the player chooses to take a shower, the game will continue with the following code:
+                                          ^
+
+File "game/script.rpy", line 31: expected statement.
+    If the player chooses the kitchen, the game will continue with the following code:
+                                     ^
+
+File "game/script.rpy", line 37: expected statement.
+    Would you like to make a sandwich using the leftover foods or eat the takeaway?
+                                                                                  ^
+
+File "game/script.rpy", line 38: expected statement.
+    If the player chooses to make a sandwich, the game will continue with the following code:
+                                            ^
+
+Ren'Py Version: Ren'Py 8.5.3.26051504
+Sat Aug 29 16:31:45 2026
