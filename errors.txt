@@ -2,21 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 23: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    scene hospital bed
+File "game/script.rpy", line 40: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    e "You've created a new Ren'Py game."
     ^
 
-File "game/script.rpy", line 32: expected statement.
-    If the player chooses the kitchen, the game will continue with the following code:
-                                     ^
-
-File "game/script.rpy", line 38: expected statement.
-    Would you like to make a sandwich using the leftover foods or eat the takeaway?
-                                                                                  ^
-
-File "game/script.rpy", line 39: expected statement.
-    If the player chooses to make a sandwich, the game will continue with the following code:
-                                            ^
-
 Ren'Py Version: Ren'Py 8.5.3.26051504
-Sat Aug 29 16:21:57 2026
+Sat Aug 29 16:29:09 2026
