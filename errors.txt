@@ -2,21 +2,25 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 19: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    show calendar
-    ^
+File "game/script.rpy", line 45: expected statement.
+    Would you rather explore the bathroom or the kitchen first?
+                                                              ^
 
-File "game/script.rpy", line 22: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    show bg bed
-    ^
+File "game/script.rpy", line 49: expected statement.
+    Would you like to brush your teeth or take a shower?
+                                                       ^
 
-File "game/script.rpy", line 29: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    show bg sink
-    ^
+File "game/script.rpy", line 50: expected statement.
+    If the player chooses to brush their teeth, the game will continue with the following code:
+                                              ^
 
-File "game/script.rpy", line 36: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    show kitchen
+File "game/script.rpy", line 53: expected statement.
+    If the player chooses to take a shower, the game will continue with the following code:
+                                          ^
+
+File "game/script.rpy", line 64: Line is indented, but the preceding return statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    "You make a sandwich with the leftover foods, starting by toasting the bread, which you realise to be mouldy."
     ^
 
 Ren'Py Version: Ren'Py 8.5.3.26051504
-Sat Aug 29 17:19:20 2026
+Sat Aug 29 17:41:29 2026
