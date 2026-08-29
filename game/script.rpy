@@ -9,28 +9,28 @@ image bg bed = "Hospital Bed.WEBP"
 image bg sink = "Sink.jpg"
 image bg shower = "Shower.jpg"
 image calendar = "Card and letter.jpeg"
-# The game starts here.
+image bg fridge = ""
+
 
 label start:
-    show Hospital Bed
+    show bg bed
 "You are lying in your bed, groggy since you have just awoken from a long coma."
 "You look over to your left to see a calendar on your bedside table, next to a postcard from your boyfriend from the past."
+    show calendar
 "You read the postcard, which says 'We LOVE you, and missed you so much. Welcome back from your 2 year coma!'"
 "You look at the calendar, and see that it is the 29th of August, 2028. You also notice that today is labelled as 'The Perfect Day' on your calendar."
+    show bg bed
 "Panic settles in as you realise that you have no memory of the last 2 years, however you seem to feel familiar in this room and bed, so you decide to explore ."
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    # ADD CHOICE FOR KITCHEN OR BATHROOM
 
+    # IF BATHROOM
 scene Sink
-show Sink
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+show bg sink
+    # HMM IM HUNGRY, CHECK THE FRIDGE AND THEN ADD THIS CODE
+show bg fridge
 
-
-# If the player chooses the kitchen, the game will continue with the following code:
+    # IF KITCHEN
 show kitchen
 scene kitchen
 "You are now in the kitchen, this is where you and your boyfriend used to cook together, you see a note on the fridge that says 'I love you, and I will always be here for you, even if you don't remember me. -Your boyfriend'"
@@ -39,5 +39,6 @@ scene kitchen
 "You look in the fridge and spot some leftover foods and takeaway"
 "Would you like to make a sandwich using the leftover foods or eat the takeaway?"
 
+    # WAKE UP
 
 return
